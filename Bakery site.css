@@ -1,0 +1,293 @@
+.clear{
+    clear: both;
+}
+*{ 
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin:0;
+}
+
+/* start home */
+
+
+.nav .nav-logo{
+    width: 15%;
+    float: left;
+    height: 60px;
+    margin-left: 30px;
+}
+
+.nav-logo img{
+    width: 100%;
+}
+.nav-links{
+background-color: brown;
+ }
+ .nav-links .ul-list{
+    float: right;
+
+
+}
+.nav-links .ul-list li{ 
+    list-style-type: none;
+    float:left;
+    padding: 15px;
+
+
+
+}
+.nav-links .ul-list a{ 
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 10px 0px 0px;
+
+
+
+}
+
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh ;
+    overflow:auto ;
+             
+
+
+}
+.home_content{
+     color: white;
+     text-align: center;
+     padding: 10%;  
+     font-size: 25px  ; 
+}
+.home .home_content .h1{
+    font-size: 50px;
+    margin: 20px 
+}
+.home .home_content .btn {
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 20px 5px 0px 0px;
+}  
+.home .home_content .button1 {
+    padding: 15px;
+    background-color: #8e7754;
+    border-radius: 5px;
+    border-width: 0;
+
+}   
+.home .home_content .button2 {
+  background-color: transparent;
+  border:2px solid white;
+  padding: 15px;
+  border-radius: 5px;
+
+}  
+/* end of home */
+
+/* start about */
+.about{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+
+}
+.about .about-img{
+    width: 40%;
+    float: left;
+}
+
+.about .about-img img{
+    width: 100%;
+}
+.about .about-content{
+width: 50%;
+float: right;
+font-size: 18px;
+text-align: center;
+margin-top: 50px;
+color: #686868;
+}
+
+.about .about-content .h2{
+    color: black;
+   margin: 30px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about .about-content .p{
+    margin-top: 20px 0px;
+    margin-bottom: 40px;
+
+
+}
+
+
+ .about .about-list{
+    text-align: left;
+ }
+
+.about .about-list .ul .li{
+    padding: 10px;
+    
+ 
+
+}
+/* end of about section */
+
+
+/* start of offer section */
+.offer{
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    margin-top: 100px;
+    height: 550px;
+    overflow:auto;
+
+}
+.offer .offer-content{
+    width: 50%;
+    float: left;
+   text-align: center;
+   margin: 115px 30px;
+   color: #686868;
+    padding: 50px;
+}
+
+.offer .offer-img{
+float: right;
+width: 40%;
+text-align: center;
+margin-right: 25px;
+margin-top: 60px;
+}
+
+.offer .offer-img img{
+    width: 100%;
+}
+ 
+.offer .offer-content .h2{ 
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+.offer .offer-content .paragraph-a{
+    margin-bottom: 50px;
+
+
+}
+
+.gallary .meals{
+    float: left;
+}
+/* end of offer section */
+
+
+/* start of gallary */
+.gallary{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    overflow: auto;
+}
+.meal{
+    width: 33%;
+    text-align: center;
+    float: left;
+    padding: 30px;
+    color: #686868;
+}
+.meal img{
+    width: 100%;
+}
+.gallary .h2{
+    margin-bottom: 30px;
+    color: black;
+}
+.gallary .p{
+    color: #686868;
+}
+/* end of gallary */
+ 
+
+/* start of blog */
+
+.blog{
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    background-color:rgb(243, 243, 243);
+}
+.blog .blog-map{
+    width: 40%;
+    float: right;
+    margin-top: 50px;
+
+}
+.blog .blog-content{
+    width: 50%;
+    float: left;
+   margin-top: 150px;
+   margin-left: 100px;
+   color: #686868;
+
+}
+.blog .blog-content .h2{
+    margin-bottom: 30px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.blog .blog-content .p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 40px;
+
+}
+.blog .blog-content .h5{
+margin-bottom: 20px;
+font-size: 15px;
+font-family:sans-serif ;
+}
+.blog .blog-content .ul-list .ul .li{
+    padding: 10px;
+}
+/* end of blog */
+
+/* start of contact */
+.contact{
+ background-color: rgb(47, 48, 36);
+ height: 500px;
+
+
+}
+ .contact .contact-desc{
+    float:left;
+    width: 22%;
+    padding: 10px 10px;
+    color: #686868;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.contact .contact-desc .h2{
+   margin-bottom: 20px;
+
+
+}
+
+
+/* end of contact */
+
+
